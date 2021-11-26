@@ -11,7 +11,7 @@ public class ResourceReader {
     }
 
 
-    static String response(File path) throws IOException {
+    public static String response(File path) throws IOException {
         try {
             InputStream inputStream = new FileInputStream(path);
             int fileLength = (int)path.length();
